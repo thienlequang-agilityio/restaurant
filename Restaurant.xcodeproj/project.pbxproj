@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167A0AC21B428ABD00050222 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167A0AC11B428ABD00050222 /* DetailTableViewCell.swift */; };
 		167ABCC41B3D39CA00FDBA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCC31B3D39CA00FDBA1A /* AppDelegate.swift */; };
 		167ABCC91B3D39CA00FDBA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167ABCC71B3D39CA00FDBA1A /* Main.storyboard */; };
 		167ABCCB1B3D39CB00FDBA1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167ABCCA1B3D39CB00FDBA1A /* Images.xcassets */; };
-		167ABCCE1B3D39CB00FDBA1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167ABCCC1B3D39CB00FDBA1A /* LaunchScreen.xib */; };
 		167ABCDA1B3D39CB00FDBA1A /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCD91B3D39CB00FDBA1A /* RestaurantTests.swift */; };
 		167ABCE71B3D3CC400FDBA1A /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCE61B3D3CC400FDBA1A /* RestaurantTableViewController.swift */; };
 		167ABCE91B3D439300FDBA1A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCE81B3D439300FDBA1A /* CustomTableViewCell.swift */; };
 		167ABCEB1B3D5CDE00FDBA1A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCEA1B3D5CDE00FDBA1A /* DetailViewController.swift */; };
 		167ABCEE1B3D5E8E00FDBA1A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167ABCED1B3D5E8E00FDBA1A /* Restaurant.swift */; };
+		16994D8B1B4397340010AB0C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16994D8A1B4397340010AB0C /* ReviewViewController.swift */; };
+		16994D8D1B439EF60010AB0C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16994D8C1B439EF60010AB0C /* ShareViewController.swift */; };
+		16994D8F1B43C55E0010AB0C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16994D8E1B43C55E0010AB0C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		167A0AC11B428ABD00050222 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		167ABCBE1B3D39CA00FDBA1A /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167ABCC21B3D39CA00FDBA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		167ABCC31B3D39CA00FDBA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		167ABCC81B3D39CA00FDBA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		167ABCCA1B3D39CB00FDBA1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		167ABCCD1B3D39CB00FDBA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		167ABCD31B3D39CB00FDBA1A /* RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		167ABCD81B3D39CB00FDBA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		167ABCD91B3D39CB00FDBA1A /* RestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTests.swift; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		167ABCE81B3D439300FDBA1A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		167ABCEA1B3D5CDE00FDBA1A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ViewControllers/DetailViewController.swift; sourceTree = "<group>"; };
 		167ABCED1B3D5E8E00FDBA1A /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		16994D8A1B4397340010AB0C /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewViewController.swift; path = ViewControllers/ReviewViewController.swift; sourceTree = "<group>"; };
+		16994D8C1B439EF60010AB0C /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		16994D8E1B43C55E0010AB0C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16994D8F1B43C55E0010AB0C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,7 @@
 		167ABCB51B3D39CA00FDBA1A = {
 			isa = PBXGroup;
 			children = (
+				16994D8E1B43C55E0010AB0C /* MapKit.framework */,
 				167ABCC01B3D39CA00FDBA1A /* Restaurant */,
 				167ABCD61B3D39CB00FDBA1A /* RestaurantTests */,
 				167ABCBF1B3D39CA00FDBA1A /* Products */,
@@ -89,8 +97,8 @@
 				167ABCC71B3D39CA00FDBA1A /* Main.storyboard */,
 				167ABCE81B3D439300FDBA1A /* CustomTableViewCell.swift */,
 				167ABCCA1B3D39CB00FDBA1A /* Images.xcassets */,
-				167ABCCC1B3D39CB00FDBA1A /* LaunchScreen.xib */,
 				167ABCC11B3D39CA00FDBA1A /* Supporting Files */,
+				167A0AC11B428ABD00050222 /* DetailTableViewCell.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -125,6 +133,8 @@
 			children = (
 				167ABCE61B3D3CC400FDBA1A /* RestaurantTableViewController.swift */,
 				167ABCEA1B3D5CDE00FDBA1A /* DetailViewController.swift */,
+				16994D8A1B4397340010AB0C /* ReviewViewController.swift */,
+				16994D8C1B439EF60010AB0C /* ShareViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -186,6 +196,11 @@
 				TargetAttributes = {
 					167ABCBD1B3D39CA00FDBA1A = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					167ABCD21B3D39CB00FDBA1A = {
 						CreatedOnToolsVersion = 6.3;
@@ -218,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				167ABCC91B3D39CA00FDBA1A /* Main.storyboard in Resources */,
-				167ABCCE1B3D39CB00FDBA1A /* LaunchScreen.xib in Resources */,
 				167ABCCB1B3D39CB00FDBA1A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,10 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167A0AC21B428ABD00050222 /* DetailTableViewCell.swift in Sources */,
 				167ABCEE1B3D5E8E00FDBA1A /* Restaurant.swift in Sources */,
+				16994D8B1B4397340010AB0C /* ReviewViewController.swift in Sources */,
 				167ABCE91B3D439300FDBA1A /* CustomTableViewCell.swift in Sources */,
 				167ABCE71B3D3CC400FDBA1A /* RestaurantTableViewController.swift in Sources */,
 				167ABCC41B3D39CA00FDBA1A /* AppDelegate.swift in Sources */,
+				16994D8D1B439EF60010AB0C /* ShareViewController.swift in Sources */,
 				167ABCEB1B3D5CDE00FDBA1A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,14 +287,6 @@
 				167ABCC81B3D39CA00FDBA1A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		167ABCCC1B3D39CB00FDBA1A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				167ABCCD1B3D39CB00FDBA1A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
